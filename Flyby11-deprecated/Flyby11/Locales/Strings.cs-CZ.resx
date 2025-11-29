@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="compPatch_debugCancel" xml:space="preserve">
+    <value>Bypass patch zrušen uživatelem.</value>
+  </data>
+  <data name="compPatch_debugNotRemovableDrive" xml:space="preserve">
+    <value>Uživatel nevybral výměné zařízení.</value>
+  </data>
+  <data name="compPatch_debugNoUSBDrive" xml:space="preserve">
+    <value>Nebyl vybrán USB disk pro záplatování.</value>
+  </data>
+  <data name="compPatch_msgFailedEx" xml:space="preserve">
+    <value>Chyba při aplikování "bypass" záplaty:</value>
+  </data>
+  <data name="compPatch_msgNotRemovableDrive" xml:space="preserve">
+    <value>Zvolená cesta není vyměnitelný disk. Prosím zvolte USB disk.</value>
+  </data>
+  <data name="compPatch_msgSelectDrive" xml:space="preserve">
+    <value>Vyberte USB disk obsahující instalační soubory Windows 11. \nTato funkce přidává kompatibilní záplatu, která obejde určité systémové požadavky. \nKompatibilní s disky připravenými jakýmkoli nástrojem, včetně Rufus. Ujistěte se, že je disk připraven!</value>
+  </data>
+  <data name="compPatch_msgSelectDriveConfirm" xml:space="preserve">
+    <value>Tímto se na vybraný USB disk použijí nastavení pro obejití kompatibility ("bypass"). Pokračovat?</value>
+  </data>
+  <data name="compPatch_msgSuccess" xml:space="preserve">
+    <value>Záplata pro obejití ("bypass") byla úspěšně aplikována!</value>
+  </data>
+  <data name="ctl_FormTitle" xml:space="preserve">
+    <value>Asistent pro upgrade Flyby11</value>
+  </data>
+  <data name="ctl_inkCompPatch" xml:space="preserve">
+    <value>Použít záplatu pro kompatibility na ISO (čistá instalace)</value>
+  </data>
+  <data name="ctl_linkCiuv" xml:space="preserve">
+    <value>Mohu upgradovat na Windows 11?</value>
+  </data>
+  <data name="ctl_linkVote" xml:space="preserve">
+    <value>Fungoval upgrade?</value>
+  </data>
+  <data name="ctl_statusLabel" xml:space="preserve">
+    <value>Přetáhněte Windows 11 ISO, abyste jej opravili a nainstalovali na nepodporovaný hardware (místní upgrade).</value>
+  </data>
+  <data name="faq_a1" xml:space="preserve">
+    <value>O: Můžete si stáhnout nejnovější ISO z oficiálních stránek Microsoftu nebo použít Fido Downloader.</value>
+  </data>
+  <data name="faq_a2" xml:space="preserve">
+    <value>O: Pokud jste úspěšně nainstalovali Windows 11 a ušetřili nějaké peníze, neváhejte zde zanechat malý příspěvek jako poděkování.</value>
+  </data>
+  <data name="faq_a2Link" xml:space="preserve">
+    <value>Klikněte zde, abyste přispěli a vyjádřili svou podporu.</value>
+  </data>
+  <data name="faq_a3" xml:space="preserve">
+    <value>O: Jakmile je ISO připojeno, proces instalace běží na pozadí. Instalátor Windows se spustí a provede vás kroky potřebnými k instalaci Windows 11 na váš počítač.</value>
+  </data>
+  <data name="faq_a4" xml:space="preserve">
+    <value>O: Zkontrolujte prosím chybové zprávy a nahlaste je na GitHubu.</value>
+  </data>
+  <data name="faq_a5" xml:space="preserve">
+    <value>O: Ano, Microsoft nechal otevřená zadní vrátka. Tato metoda využívá funkci instalačního procesu Windows 11, která používá variantu instalace Windows Server. Na rozdíl od běžné instalace Windows 11 tato varianta přeskočí většinu kontrol kompatibility hardwaru.</value>
+  </data>
+  <data name="faq_a6" xml:space="preserve">
+    <value>O: Podle Microsoftu byste měli svůj počítač vyhodit. Doporučil bych na něj nainstalovat Linux a přejít od Windows.</value>
+  </data>
+  <data name="faq_a7" xml:space="preserve">
+    <value>O: Vývojářem je Belim, známý také jako Builtbybel, který přispěl velkým množstvím kódu do komunity Windows.</value>
+  </data>
+  <data name="faq_a7Link" xml:space="preserve">
+    <value>Klikněte zde, abyste se dozvěděli více o práci vývojáře.</value>
+  </data>
+  <data name="faq_downloadFido" xml:space="preserve">
+    <value>Stáhnout přes Fido (doporučeno)</value>
+  </data>
+  <data name="faq_downloadMS" xml:space="preserve">
+    <value>Web Microsoft</value>
+  </data>
+  <data name="faq_header" xml:space="preserve">
+    <value>Často kladené dotazy (FAQ)</value>
+  </data>
+  <data name="faq_q1" xml:space="preserve">
+    <value>Q: Kde mohu získat nejnovější ISO Windows 11?</value>
+  </data>
+  <data name="faq_q2" xml:space="preserve">
+    <value>Q: Jak mohu podpořit vývojáře?</value>
+  </data>
+  <data name="faq_q3" xml:space="preserve">
+    <value>Q: Jak funguje proces instalace, jakmile je ISO připojeno?</value>
+  </data>
+  <data name="faq_q4" xml:space="preserve">
+    <value>Q: Co když narazím na problémy během instalace?</value>
+  </data>
+  <data name="faq_q5" xml:space="preserve">
+    <value>Q: Je legální použít tuto metodu?</value>
+  </data>
+  <data name="faq_q6" xml:space="preserve">
+    <value>Q: Jaké mám alternativy, pokud můj počítač není podporován?</value>
+  </data>
+  <data name="faq_q7" xml:space="preserve">
+    <value>Q: Kdo je vývojář?</value>
+  </data>
+  <data name="ciuView_lblPtAns" xml:space="preserve">
+    <value>1. Zařízení používá aktuálně podporovanou verzi Windows 10. Pokud zařízení nepoužívá podporovanou verzi Windows 10, upgradujte na podporovanou verzi Windows 10.</value>
+  </data>
+  <data name="ciuView_lblPtAns2" xml:space="preserve">
+    <value>2. Zařízení splňuje...</value>
+  </data>
+  <data name="ciuView_lblPtAns3" xml:space="preserve">
+    <value>1. Stáhněte a spusťte...</value>
+  </data>
+  <data name="ciuView_lblPtAns4" xml:space="preserve">
+    <value>2. Vyberte následující zástupce Windows Update a poté vyberte tlačítko Zkontrolovat aktualizace:</value>
+  </data>
+  <data name="ciuView_lblPtAns5" xml:space="preserve">
+    <value>3. Vaše zařízení nesplňuje oficiální požadavky pro Windows 11? Můžete použít kompatibilní patch, který umožní Inplace Upgrade prostřednictvím Windows Update.</value>
+  </data>
+  <data name="ciuView_lblPtHdr" xml:space="preserve">
+    <value>Stávající zařízení s Windows 10 lze upgradovat na Windows 11, pokud splňuje následující kritéria:</value>
+  </data>
+  <data name="ciuView_lblPtHdr2" xml:space="preserve">
+    <value>Chcete-li zjistit, zda je zařízení s Windows 10 způsobilé k upgradu na Windows 11, postupujte podle jedné z těchto možností:</value>
+  </data>
+  <data name="ciuView_linkPtAns2" xml:space="preserve">
+    <value>minimální hardwarové požadavky pro spuštění Windows 11.</value>
+  </data>
+  <data name="ciuView_linkPtAns3" xml:space="preserve">
+    <value>Aplikace WhyNotWin11 pro potvrzení, že vaše zařízení splňuje minimální systémové požadavky.</value>
+  </data>
+  <data name="msg_InstallReady" xml:space="preserve">
+    <value>Instalace Windows 11 může nyní pokračovat. Postupujte prosím podle pokynů v okně nastavení.</value>
+    <comment>Install</comment>
+  </data>
+  <data name="_debugInstallReady" xml:space="preserve">
+    <value>Jste připraveni nainstalovat Windows 11 na nepodporovaný hardware! Ignorujte výzvu 'Windows Server'; jste připraveni!</value>
+    <comment>Install</comment>
+  </data>
+  <data name="_debugInstallRunElevated" xml:space="preserve">
+    <value>Zahájení procesu instalace s vyššími oprávněními...</value>
+    <comment>Install</comment>
+  </data>
+  <data name="_debugStatusHandleIsoEx" xml:space="preserve">
+    <value>Jejda! Něco se pokazilo:</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="_debugStatusMounting" xml:space="preserve">
+    <value>Připojování ISO... Vydržte!</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="_debugStatusMountingFailed" xml:space="preserve">
+    <value>Nepodařilo se připojit ISO. Zkuste to prosím znovu.</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="_debugStatusMountingSuccess" xml:space="preserve">
+    <value>ISO úspěšně připojeno! Pojďme připravit tento Windows 11!</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="_debugStatusRunning" xml:space="preserve">
+    <value>Skoro hotovo! Připravujeme instalaci...</value>
+    <comment>Install</comment>
+  </data>
+  <data name="_debugStatusSetupFileNotFound" xml:space="preserve">
+    <value>Instalační soubor nebyl nalezen v...</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="ctl_linkSelectComputer" xml:space="preserve">
+    <value>Vyberte z počítače.</value>
+  </data>
+  <data name="msgClosing" xml:space="preserve">
+    <value />
+  </data>
+</root>
