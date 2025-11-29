@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="compPatch_debugCancel" xml:space="preserve">
+    <value>Omzeilingspatch geannuleerd door gebruiker.</value>
+  </data>
+  <data name="compPatch_debugNotRemovableDrive" xml:space="preserve">
+    <value>Gebruiker probeerde een niet-verwisselbaar station te selecteren.</value>
+  </data>
+  <data name="compPatch_debugNoUSBDrive" xml:space="preserve">
+    <value>Geen USB-station geselecteerd voor patching.</value>
+  </data>
+  <data name="compPatch_msgFailedEx" xml:space="preserve">
+    <value>Fout bij toepassen van omzeilingspatch:</value>
+  </data>
+  <data name="compPatch_msgNotRemovableDrive" xml:space="preserve">
+    <value>Het geselecteerde pad is geen verwisselbaar station. Selecteer een USB-station.</value>
+  </data>
+  <data name="compPatch_msgSelectDrive" xml:space="preserve">
+    <value>Selecteer het USB-station met uw Windows 11 installatiebestanden.\nDeze functie voegt een compatibiliteitspatch toe om bepaalde systeemeisen te omzeilen.\nCompatibel met stations die zijn voorbereid met elke tool, inclusief Rufus. Zorg ervoor dat het station klaar is!</value>
+  </data>
+  <data name="compPatch_msgSelectDriveConfirm" xml:space="preserve">
+    <value>Dit zal compatibiliteits-omzeilingsinstellingen toepassen op het geselecteerde USB-station. Doorgaan?</value>
+  </data>
+  <data name="compPatch_msgSuccess" xml:space="preserve">
+    <value>Omzeilingspatch succesvol toegepast!</value>
+  </data>
+  <data name="ctl_FormTitle" xml:space="preserve">
+    <value>Flyby11 Upgrade-assistent</value>
+  </data>
+  <data name="ctl_inkCompPatch" xml:space="preserve">
+    <value>Compatibiliteitspatch toepassen op ISO (Schone installatie)</value>
+  </data>
+  <data name="ctl_linkCiuv" xml:space="preserve">
+    <value>Kan ik upgraden naar Windows 11?</value>
+  </data>
+  <data name="ctl_linkVote" xml:space="preserve">
+    <value>Werkte de upgrade?</value>
+  </data>
+  <data name="ctl_statusLabel" xml:space="preserve">
+    <value>Sleep de Windows 11 ISO hierheen om het te patchen en te installeren op niet-ondersteunde hardware (In-place upgrade).</value>
+  </data>
+  <data name="faq_a1" xml:space="preserve">
+    <value>A: U kunt de nieuwste ISO downloaden van de officiële Microsoft-website of de Fido Downloader gebruiken.</value>
+  </data>
+  <data name="faq_a2" xml:space="preserve">
+    <value>A: Als u Windows 11 succesvol heeft geïnstalleerd en wat geld heeft bespaard, voel je vrij om hier een kleine donatie als dank achter te laten.</value>
+  </data>
+  <data name="faq_a2Link" xml:space="preserve">
+    <value>Klik hier om te doneren en uw steun te tonen.</value>
+  </data>
+  <data name="faq_a3" xml:space="preserve">
+    <value>A: Zodra de ISO is gekoppeld, wordt het installatieproces op de achtergrond uitgevoerd. Het Windows-installatieprogramma start en begeleidt u door de stappen die nodig zijn om Windows 11 op uw machine te installeren.</value>
+  </data>
+  <data name="faq_a4" xml:space="preserve">
+    <value>A: Controleer de foutmeldingen en rapporteer het op GitHub.</value>
+  </data>
+  <data name="faq_a5" xml:space="preserve">
+    <value>A: Ja, Microsoft heeft een achterdeur open gelaten. Deze methode maakt gebruik van een functie van het Windows 11 installatieproces die de Windows Server-variant van de installatie gebruikt. In tegenstelling tot de gewone Windows 11-installatie slaat deze variant de meeste hardware-compatibiliteitscontroles over.</value>
+  </data>
+  <data name="faq_a6" xml:space="preserve">
+    <value>A: Volgens Microsoft zou je je PC weg moeten gooien. Ik zou voorstellen om Linux erop te installeren en weg te gaan van Windows.</value>
+  </data>
+  <data name="faq_a7" xml:space="preserve">
+    <value>A: De ontwikkelaar is Belim, ook bekend als Builtbybel, die veel code heeft bijgedragen aan de Windows-community.</value>
+  </data>
+  <data name="faq_a7Link" xml:space="preserve">
+    <value>Klik hier om meer te leren over het werk van de ontwikkelaar.</value>
+  </data>
+  <data name="faq_downloadFido" xml:space="preserve">
+    <value>Downloaden via Fido (Aanbevolen)</value>
+  </data>
+  <data name="faq_downloadMS" xml:space="preserve">
+    <value>Microsoft-site</value>
+  </data>
+  <data name="faq_header" xml:space="preserve">
+    <value>Veelgestelde vragen (FAQ)</value>
+  </data>
+  <data name="faq_q1" xml:space="preserve">
+    <value>V: Waar kan ik de nieuwste Windows 11 ISO krijgen?</value>
+  </data>
+  <data name="faq_q2" xml:space="preserve">
+    <value>V: Hoe kan ik de ontwikkelaar ondersteunen?</value>
+  </data>
+  <data name="faq_q3" xml:space="preserve">
+    <value>V: Hoe werkt het installatieproces zodra de ISO is gekoppeld?</value>
+  </data>
+  <data name="faq_q4" xml:space="preserve">
+    <value>V: Wat als ik problemen ondervind tijdens de installatie?</value>
+  </data>
+  <data name="faq_q5" xml:space="preserve">
+    <value>V: Is het legaal om deze methode te gebruiken?</value>
+  </data>
+  <data name="faq_q6" xml:space="preserve">
+    <value>V: Wat zijn mijn alternatieven als mijn PC niet wordt ondersteund?</value>
+  </data>
+  <data name="faq_q7" xml:space="preserve">
+    <value>V: Wie is de ontwikkelaar?</value>
+  </data>
+  <data name="ciuView_lblPtAns" xml:space="preserve">
+    <value>1. Het apparaat draait een momenteel ondersteunde versie van Windows 10. Als het apparaat momenteel geen ondersteunde versie van Windows 10 draait, upgrade dan naar een ondersteunde versie van Windows 10.</value>
+  </data>
+  <data name="ciuView_lblPtAns2" xml:space="preserve">
+    <value>2. Het apparaat voldoet aan</value>
+  </data>
+  <data name="ciuView_lblPtAns3" xml:space="preserve">
+    <value>1. Download en voer de</value>
+  </data>
+  <data name="ciuView_lblPtAns4" xml:space="preserve">
+    <value>2. Selecteer de volgende Windows Update-snelkoppeling en selecteer vervolgens de knop Controleren op updates:</value>
+  </data>
+  <data name="ciuView_lblPtAns5" xml:space="preserve">
+    <value>3. Voldoet uw apparaat niet aan de officiële vereisten voor Windows 11? U kunt een compatibiliteitspatch toepassen om de In-place upgrade via Windows Update in te schakelen.</value>
+  </data>
+  <data name="ciuView_lblPtHdr" xml:space="preserve">
+    <value>Een bestaand Windows 10-apparaat kan worden geüpgraded naar Windows 11 als het voldoet aan de volgende criteria:</value>
+  </data>
+  <data name="ciuView_lblPtHdr2" xml:space="preserve">
+    <value>Om te zien of een Windows 10-apparaat in aanmerking komt voor upgrade naar Windows 11, volg een van deze opties:</value>
+  </data>
+  <data name="ciuView_linkPtAns2" xml:space="preserve">
+    <value>de minimale hardwarespecificaties om Windows 11 uit te voeren.</value>
+  </data>
+  <data name="ciuView_linkPtAns3" xml:space="preserve">
+    <value>WhyNotWin11-app om te bevestigen dat uw apparaat voldoet aan de minimumsysteemvereisten</value>
+  </data>
+  <data name="msg_InstallReady" xml:space="preserve">
+    <value>Windows 11-installatie kan nu doorgaan. Volg de instructies in het installatievenster.</value>
+    <comment>Install</comment>
+  </data>
+  <data name="_debugInstallReady" xml:space="preserve">
+    <value>U bent klaar om Windows 11 te installeren op niet-ondersteunde hardware! Negeer de 'Windows Server'-prompt; u bent helemaal klaar!</value>
+    <comment>Install</comment>
+  </data>
+  <data name="_debugInstallRunElevated" xml:space="preserve">
+    <value>Het installatieproces starten met verhoogde bevoegdheden...</value>
+    <comment>Install</comment>
+  </data>
+  <data name="_debugStatusHandleIsoEx" xml:space="preserve">
+    <value>Oeps! Er ging iets mis:</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="_debugStatusMounting" xml:space="preserve">
+    <value>ISO koppelen... Hou vol!</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="_debugStatusMountingFailed" xml:space="preserve">
+    <value>ISO koppelen mislukt. Probeer het opnieuw.</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="_debugStatusMountingSuccess" xml:space="preserve">
+    <value>ISO succesvol gekoppeld! Laten we deze Windows 11 klaar maken!</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="_debugStatusRunning" xml:space="preserve">
+    <value>Bijna klaar! We maken de installatie gereed...</value>
+    <comment>Install</comment>
+  </data>
+  <data name="_debugStatusSetupFileNotFound" xml:space="preserve">
+    <value>Installatiebestand niet gevonden in</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="ctl_linkSelectComputer" xml:space="preserve">
+    <value>Selecteren van computer</value>
+  </data>
+  <data name="msgClosing" xml:space="preserve">
+    <value>Bedankt voor het gebruiken van mijn app! Ik heb deze applicatie in mijn vrije tijd ontwikkeld om u te helpen upgraden van Windows 10 naar Windows 11 – zelfs op PC's die volgens Microsoft's hardwarevereisten normaal gesproken niet zouden worden ondersteund. Mijn app helpt u een nieuwe computer te vermijden en draagt actief bij aan het verminderen van onnodige elektronische afval. Normaal gesproken vraag ik niets voor mijn projecten – noch voor ontwikkeling, noch voor ondersteuning. Omdat deze app echter aanzienlijk uitgebreider is, meer functies biedt en meer ondersteuning vereist, zou ik dankbaar zijn als u een kleine vrijwillige donatie zou willen overwegen, indien u dat kunt. Natuurlijk alleen als u wilt en het zich kunt veroorloven. Wilt u nu doneren op PayPal?</value>
+  </data>
+</root>
