@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="compPatch_debugCancel" xml:space="preserve">
+    <value>Baypas yaması kullanıcı tarafından iptal edildi.</value>
+  </data>
+  <data name="compPatch_debugNotRemovableDrive" xml:space="preserve">
+    <value>Kullanıcı çıkarılamayan bir sürücü seçmeye çalıştı.</value>
+  </data>
+  <data name="compPatch_debugNoUSBDrive" xml:space="preserve">
+    <value>Yama için USB sürücüsü seçilmedi.</value>
+  </data>
+  <data name="compPatch_msgFailedEx" xml:space="preserve">
+    <value>Baypas yaması uygulanamadı:</value>
+  </data>
+  <data name="compPatch_msgNotRemovableDrive" xml:space="preserve">
+    <value>Seçilen yol çıkarılabilir bir sürücü değil. Lütfen bir USB sürücüsü seçin.</value>
+  </data>
+  <data name="compPatch_msgSelectDrive" xml:space="preserve">
+    <value>Windows 11 kurulum dosyalarınızı içeren USB sürücüsünü seçin.\nBu özellik, belirli sistem gereksinimlerini atlatmak için bir uyumluluk yaması ekler.\nRufus dahil olmak üzere herhangi bir araç tarafından hazırlanan sürücülerle uyumludur. Sürücünün hazır olduğundan emin olun!</value>
+  </data>
+  <data name="compPatch_msgSelectDriveConfirm" xml:space="preserve">
+    <value>Bu, seçili USB sürücüsünde uyumluluk atlama ayarlarını uygulayacaktır. Devam etmek istiyor musunuz?</value>
+  </data>
+  <data name="compPatch_msgSuccess" xml:space="preserve">
+    <value>Baypas yaması başarıyla uygulandı!</value>
+  </data>
+  <data name="ctl_FormTitle" xml:space="preserve">
+    <value>Flyby11 Yükseltme Asistanı</value>
+  </data>
+  <data name="ctl_inkCompPatch" xml:space="preserve">
+    <value>Uyumluluk Yaması'nı ISO'ya Uygula (Temiz Kurulum)</value>
+  </data>
+  <data name="ctl_linkCiuv" xml:space="preserve">
+    <value>Windows 11'e yükseltebilir miyim?</value>
+  </data>
+  <data name="ctl_linkVote" xml:space="preserve">
+    <value>Yükseltme işe yaradı mı?</value>
+  </data>
+  <data name="ctl_statusLabel" xml:space="preserve">
+    <value>Windows 11 ISO'yu sürükleyip bırakarak yama yapın ve desteklenmeyen donanımlara yükleyin (Yerinde Yükseltme).</value>
+  </data>
+  <data name="faq_a1" xml:space="preserve">
+    <value>C: En son ISO'yu resmi Microsoft web sitesinden indirebilir veya Fido Downloader'ı kullanabilirsiniz.</value>
+  </data>
+  <data name="faq_a2" xml:space="preserve">
+    <value>C: Windows 11'i başarıyla kurduysanız ve biraz para biriktirdiyseniz, buraya teşekkür amaçlı küçük bir şey bırakmaktan çekinmeyin.</value>
+  </data>
+  <data name="faq_a2Link" xml:space="preserve">
+    <value>Bağışta bulunmak ve desteğinizi göstermek için buraya tıklayın.</value>
+  </data>
+  <data name="faq_a3" xml:space="preserve">
+    <value>C: ISO yüklendikten sonra kurulum süreci arka planda çalışır. Windows yükleyicisi başlar ve makinenize Windows 11'i yüklemek için gereken adımlarda size rehberlik eder.</value>
+  </data>
+  <data name="faq_a4" xml:space="preserve">
+    <value>C: Lütfen hata mesajlarını kontrol edin ve GitHub'a bildirin.</value>
+  </data>
+  <data name="faq_a5" xml:space="preserve">
+    <value>C: Evet, Microsoft bir arka kapıyı açık bıraktı. Bu yöntem, kurulumun Windows Server varyantını kullanan Windows 11 kurulum sürecinin bir özelliğinden yararlanır. Normal Windows 11 kurulumunun aksine, bu varyant çoğu donanım uyumluluk denetimini atlar.</value>
+  </data>
+  <data name="faq_a6" xml:space="preserve">
+    <value>C: Microsoft'a göre, bilgisayarınızı atmalısınız. Ben ona Linux kurmanızı ve Windows'tan uzaklaşmanızı öneririm.</value>
+  </data>
+  <data name="faq_a7" xml:space="preserve">
+    <value>C: Geliştirici, Windows topluluğuna çok sayıda kod katkıda bulunan, aynı zamanda Builtbybel olarak da bilinen Belim'dir.</value>
+  </data>
+  <data name="faq_a7Link" xml:space="preserve">
+    <value>Geliştiricinin çalışmaları hakkında daha fazla bilgi edinmek için buraya tıklayın.</value>
+  </data>
+  <data name="faq_downloadFido" xml:space="preserve">
+    <value>Fido üzerinden indirin (Önerilen)</value>
+  </data>
+  <data name="faq_downloadMS" xml:space="preserve">
+    <value>Microsoft Site</value>
+  </data>
+  <data name="faq_header" xml:space="preserve">
+    <value>Sıkça Sorulan Sorular (SSS)</value>
+  </data>
+  <data name="faq_q1" xml:space="preserve">
+    <value>S: En son Windows 11 ISO'sunu nereden edinebilirim?</value>
+  </data>
+  <data name="faq_q2" xml:space="preserve">
+    <value>S: Geliştiriciye nasıl destek olabilirim?</value>
+  </data>
+  <data name="faq_q3" xml:space="preserve">
+    <value>S: ISO yüklendikten sonra kurulum süreci nasıl işliyor?</value>
+  </data>
+  <data name="faq_q4" xml:space="preserve">
+    <value>S: Kurulum sırasında sorunlarla karşılaşırsam ne olur?</value>
+  </data>
+  <data name="faq_q5" xml:space="preserve">
+    <value>S: Bu yöntemi kullanmak yasal mı?</value>
+  </data>
+  <data name="faq_q6" xml:space="preserve">
+    <value>S: Bilgisayarım desteklenmiyorsa alternatiflerim nelerdir?</value>
+  </data>
+  <data name="faq_q7" xml:space="preserve">
+    <value>S: Geliştirici kimdir?</value>
+  </data>
+  <data name="ciuView_lblPtAns" xml:space="preserve">
+    <value>1. Cihaz şu anda desteklenen bir Windows 10 sürümü çalıştırıyor. Cihaz şu anda desteklenen bir Windows 10 sürümü çalıştırmıyorsa, desteklenen bir Windows 10 sürümüne yükseltin.</value>
+  </data>
+  <data name="ciuView_lblPtAns2" xml:space="preserve">
+    <value>2. Cihaz karşılar</value>
+  </data>
+  <data name="ciuView_lblPtAns3" xml:space="preserve">
+    <value>1. İndirin ve çalıştırın</value>
+  </data>
+  <data name="ciuView_lblPtAns4" xml:space="preserve">
+    <value>2. Aşağıdaki Windows Update kısayolunu seçin ve ardından Güncelleştirmeleri denetle düğmesini seçin:</value>
+  </data>
+  <data name="ciuView_lblPtAns5" xml:space="preserve">
+    <value>3. Cihazınız Windows 11'in resmi gereksinimlerini karşılamıyor mu? Windows Update aracılığıyla Yerinde Yükseltmeyi etkinleştirmek için bir uyumluluk yaması uygulayabilirsiniz.</value>
+  </data>
+  <data name="ciuView_lblPtHdr" xml:space="preserve">
+    <value>Mevcut bir Windows 10 cihazı, aşağıdaki ölçütleri karşılıyorsa Windows 11'e yükseltilebilir:</value>
+  </data>
+  <data name="ciuView_lblPtHdr2" xml:space="preserve">
+    <value>Bir Windows 10 cihazının Windows 11'e yükseltmeye uygun olup olmadığını görmek için şu seçeneklerden birini izleyin:</value>
+  </data>
+  <data name="ciuView_linkPtAns2" xml:space="preserve">
+    <value>Windows 11'i çalıştırmak için gereken minimum donanım özellikleri.</value>
+  </data>
+  <data name="ciuView_linkPtAns3" xml:space="preserve">
+    <value>Cihazınızın minimum sistem gereksinimlerini karşıladığını doğrulamak için WhyNotWin11 uygulaması</value>
+  </data>
+  <data name="msg_InstallReady" xml:space="preserve">
+    <value>Windows 11 kurulumu artık devam edebilir. Lütfen kurulum penceresindeki talimatları izleyin.</value>
+    <comment>Kur</comment>
+  </data>
+  <data name="_debugInstallReady" xml:space="preserve">
+    <value>Desteklenmeyen donanıma Windows 11 yüklemeye hazırsınız! 'Windows Server' istemini görmezden gelin; artık hazırsınız!</value>
+    <comment>Kur</comment>
+  </data>
+  <data name="_debugInstallRunElevated" xml:space="preserve">
+    <value>Kurulum süreci yükseltilmiş ayrıcalıklarla başlatılıyor...</value>
+    <comment>Kur</comment>
+  </data>
+  <data name="_debugStatusHandleIsoEx" xml:space="preserve">
+    <value>Oops! Bir şeyler ters gitti:</value>
+    <comment>Yükle</comment>
+  </data>
+  <data name="_debugStatusMounting" xml:space="preserve">
+    <value>ISO montajı... Sıkı durun!</value>
+    <comment>Yükle</comment>
+  </data>
+  <data name="_debugStatusMountingFailed" xml:space="preserve">
+    <value>ISO bağlanamadı. Lütfen tekrar deneyin.</value>
+    <comment>Yükle</comment>
+  </data>
+  <data name="_debugStatusMountingSuccess" xml:space="preserve">
+    <value>ISO başarıyla bağlandı! Hadi Windows 11'i hazırlayalım!</value>
+    <comment>Yükle</comment>
+  </data>
+  <data name="_debugStatusRunning" xml:space="preserve">
+    <value>Neredeyse bitti! Kurulumu hazırlıyoruz...</value>
+  </data>
+  <data name="_debugStatusSetupFileNotFound" xml:space="preserve">
+    <value>Kurulum dosyası bulunamadı</value>
+    <comment>Yükle</comment>
+  </data>
+  <data name="msgClosing" xml:space="preserve">
+    <value />
+  </data>
+</root>
