@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="compPatch_debugCancel" xml:space="preserve">
+    <value>Patch de contournement annulé par l'utilisateur.</value>
+  </data>
+  <data name="compPatch_debugNotRemovableDrive" xml:space="preserve">
+    <value>L'utilisateur a tenté de sélectionner un lecteur non amovible.</value>
+  </data>
+  <data name="compPatch_debugNoUSBDrive" xml:space="preserve">
+    <value>Aucune clé USB sélectionnée pour le correctif.</value>
+  </data>
+  <data name="compPatch_msgFailedEx" xml:space="preserve">
+    <value>Échec de l'application du correctif de contournement :</value>
+  </data>
+  <data name="compPatch_msgNotRemovableDrive" xml:space="preserve">
+    <value>Le chemin sélectionné n'est pas un lecteur amovible. Veuillez sélectionner une clé USB.</value>
+  </data>
+  <data name="compPatch_msgSelectDrive" xml:space="preserve">
+    <value>Sélectionnez la clé USB contenant vos fichiers d'installation de Windows 11.\nCette fonctionnalité ajoute un correctif de compatibilité pour contourner certaines exigences système.\nCompatible avec les lecteurs préparés par n'importe quel outil, y compris Rufus. Assurez-vous que le lecteur est prêt !</value>
+  </data>
+  <data name="compPatch_msgSelectDriveConfirm" xml:space="preserve">
+    <value>Cela appliquera les paramètres de contournement de compatibilité sur la clé USB sélectionnée. Continuer ?</value>
+  </data>
+  <data name="compPatch_msgSuccess" xml:space="preserve">
+    <value>Le patch de contournement a été appliqué avec succès !</value>
+  </data>
+  <data name="ctl_FormTitle" xml:space="preserve">
+    <value>Assistant de mise à niveau Flyby11</value>
+  </data>
+  <data name="ctl_inkCompPatch" xml:space="preserve">
+    <value>Appliquer le correctif de compatibilité à l'ISO (installation propre)</value>
+  </data>
+  <data name="ctl_linkCiuv" xml:space="preserve">
+    <value>Puis-je passer à Windows 11 ?</value>
+  </data>
+  <data name="ctl_linkVote" xml:space="preserve">
+    <value>La mise à niveau a-t-elle fonctionné ?</value>
+  </data>
+  <data name="ctl_statusLabel" xml:space="preserve">
+    <value>Glissez et déposez l'ISO Windows 11 pour le corriger et l'installer sur du matériel non pris en charge (mise à niveau sur place).</value>
+  </data>
+  <data name="faq_a1" xml:space="preserve">
+    <value>R : Vous pouvez télécharger la dernière version ISO à partir du site Web officiel de Microsoft ou utiliser Fido Downloader.</value>
+  </data>
+  <data name="faq_a2" xml:space="preserve">
+    <value>R : Si vous avez réussi à installer Windows 11 et à économiser de l'argent, n'hésitez pas à laisser un petit quelque chose en guise de remerciement ici.</value>
+  </data>
+  <data name="faq_a2Link" xml:space="preserve">
+    <value>Cliquez ici pour faire un don et montrer votre soutien.</value>
+  </data>
+  <data name="faq_a3" xml:space="preserve">
+    <value>R : Une fois l'ISO monté, le processus d'installation s'exécute en arrière-plan. Le programme d'installation de Windows démarre et vous guide à travers les étapes requises pour installer Windows 11 sur votre ordinateur.</value>
+  </data>
+  <data name="faq_a4" xml:space="preserve">
+    <value>R : Veuillez vérifier les messages d’erreur et les signaler sur GitHub.</value>
+  </data>
+  <data name="faq_a5" xml:space="preserve">
+    <value>R : Oui, Microsoft a laissé une porte dérobée ouverte. Cette méthode exploite une fonctionnalité du processus d’installation de Windows 11 qui utilise la variante Windows Server de l’installation. Contrairement à l’installation standard de Windows 11, cette variante ignore la plupart des vérifications de compatibilité matérielle.</value>
+  </data>
+  <data name="faq_a6" xml:space="preserve">
+    <value>R : Selon Microsoft, vous devriez jeter votre PC. Je vous suggère d'installer Linux dessus et d'abandonner Windows.</value>
+  </data>
+  <data name="faq_a7" xml:space="preserve">
+    <value>R : Le développeur est Belim, également connu sous le nom de Builtbybel, qui a contribué de nombreux codes à la communauté Windows.</value>
+  </data>
+  <data name="faq_a7Link" xml:space="preserve">
+    <value>Cliquez ici pour en savoir plus sur le travail du développeur.</value>
+  </data>
+  <data name="faq_downloadFido" xml:space="preserve">
+    <value>Télécharger via Fido (recommandé)</value>
+  </data>
+  <data name="faq_downloadMS" xml:space="preserve">
+    <value>Site Microsoft</value>
+  </data>
+  <data name="faq_header" xml:space="preserve">
+    <value>Questions fréquemment posées (FAQ)</value>
+  </data>
+  <data name="faq_q1" xml:space="preserve">
+    <value>Q : Où puis-je obtenir la dernière version ISO de Windows 11 ?</value>
+  </data>
+  <data name="faq_q2" xml:space="preserve">
+    <value>Q : Comment puis-je soutenir le développeur ?</value>
+  </data>
+  <data name="faq_q3" xml:space="preserve">
+    <value>Q : Comment fonctionne le processus de configuration une fois l'ISO monté ?</value>
+  </data>
+  <data name="faq_q4" xml:space="preserve">
+    <value>Q : Que faire si je rencontre des problèmes lors de l’installation ?</value>
+  </data>
+  <data name="faq_q5" xml:space="preserve">
+    <value>Q : Est-il légal d’utiliser cette méthode ?</value>
+  </data>
+  <data name="faq_q6" xml:space="preserve">
+    <value>Q : Quelles sont mes alternatives si mon PC n’est pas pris en charge ?</value>
+  </data>
+  <data name="faq_q7" xml:space="preserve">
+    <value>Q : Qui est le développeur ?</value>
+  </data>
+  <data name="ciuView_lblPtAns" xml:space="preserve">
+    <value>1. L'appareil exécute une version actuellement prise en charge de Windows 10. Si l'appareil n'exécute pas actuellement une version prise en charge de Windows 10, effectuez une mise à niveau vers une version prise en charge de Windows 10.</value>
+  </data>
+  <data name="ciuView_lblPtAns2" xml:space="preserve">
+    <value>2. L'appareil répond</value>
+  </data>
+  <data name="ciuView_lblPtAns3" xml:space="preserve">
+    <value>1. Téléchargez et exécutez le</value>
+  </data>
+  <data name="ciuView_lblPtAns4" xml:space="preserve">
+    <value>2. Sélectionnez le raccourci Windows Update suivant, puis sélectionnez le bouton Rechercher les mises à jour :</value>
+  </data>
+  <data name="ciuView_lblPtAns5" xml:space="preserve">
+    <value>3. Votre appareil ne répond pas aux exigences officielles de Windows 11 ? Vous pouvez appliquer un correctif de compatibilité pour activer la mise à niveau sur place via Windows Update.</value>
+  </data>
+  <data name="ciuView_lblPtHdr" xml:space="preserve">
+    <value>Un appareil Windows 10 existant peut être mis à niveau vers Windows 11 s'il répond aux critères suivants :</value>
+  </data>
+  <data name="ciuView_lblPtHdr2" xml:space="preserve">
+    <value>Pour voir si un appareil Windows 10 est éligible à la mise à niveau vers Windows 11, suivez l'une de ces options :</value>
+  </data>
+  <data name="ciuView_linkPtAns2" xml:space="preserve">
+    <value>les spécifications matérielles minimales pour exécuter Windows 11.</value>
+  </data>
+  <data name="ciuView_linkPtAns3" xml:space="preserve">
+    <value>Application WhyNotWin11 pour confirmer que votre appareil répond à la configuration minimale requise</value>
+  </data>
+  <data name="msg_InstallReady" xml:space="preserve">
+    <value>L'installation de Windows 11 peut maintenant commencer. Veuillez suivre les instructions dans la fenêtre d'installation.</value>
+    <comment>Install</comment>
+  </data>
+  <data name="_debugInstallReady" xml:space="preserve">
+    <value>Vous êtes prêt à installer Windows 11 sur du matériel non pris en charge ! Ignorez l'invite « Windows Server » : vous êtes prêt !</value>
+    <comment>Install</comment>
+  </data>
+  <data name="_debugInstallRunElevated" xml:space="preserve">
+    <value>Démarrage du processus de configuration avec des privilèges élevés...</value>
+    <comment>Install</comment>
+  </data>
+  <data name="_debugStatusHandleIsoEx" xml:space="preserve">
+    <value>Oups ! Une erreur s'est produite :</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="_debugStatusMounting" xml:space="preserve">
+    <value>Montage de l'ISO... Accrochez-vous !</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="_debugStatusMountingFailed" xml:space="preserve">
+    <value>Impossible de monter l'ISO. Veuillez réessayer.</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="_debugStatusMountingSuccess" xml:space="preserve">
+    <value>L'ISO a été monté avec succès ! Préparons ce Windows 11 !</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="_debugStatusRunning" xml:space="preserve">
+    <value>Nous y sommes presque ! préparation de l'installation...</value>
+  </data>
+  <data name="_debugStatusSetupFileNotFound" xml:space="preserve">
+    <value>Fichier d'installation introuvable dans</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="msgClosing" xml:space="preserve">
+    <value />
+  </data>
+</root>
