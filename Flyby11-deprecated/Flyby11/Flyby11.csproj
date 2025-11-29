@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{503AF34B-7544-4C43-A099-2B948C3FF49A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Flyby11</RootNamespace>
+    <AssemblyName>Flyby11</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>AppIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CanIUpgradeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CanIUpgradeView.Designer.cs">
+      <DependentUpon>CanIUpgradeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClippyUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClippyUI.Designer.cs">
+      <DependentUpon>ClippyUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompatibilityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompatibilityForm.Designer.cs">
+      <DependentUpon>CompatibilityForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FAQHandler.cs" />
+    <Compile Include="IsoHandler.cs" />
+    <Compile Include="Locales\Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Logger.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProblemsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProblemsForm.Designer.cs">
+      <DependentUpon>ProblemsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SwitchView.cs" />
+    <EmbeddedResource Include="CanIUpgradeView.resx">
+      <DependentUpon>CanIUpgradeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClippyUI.resx">
+      <DependentUpon>ClippyUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompatibilityForm.resx">
+      <DependentUpon>CompatibilityForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Locales\Strings.ar.resx" />
+    <EmbeddedResource Include="Locales\Strings.cs-CZ.resx" />
+    <EmbeddedResource Include="Locales\Strings.de.resx" />
+    <EmbeddedResource Include="Locales\Strings.fr.resx" />
+    <EmbeddedResource Include="Locales\Strings.he.resx" />
+    <EmbeddedResource Include="Locales\Strings.hu.resx" />
+    <EmbeddedResource Include="Locales\Strings.it.resx" />
+    <EmbeddedResource Include="Locales\Strings.ja.resx" />
+    <EmbeddedResource Include="Locales\Strings.ko.resx" />
+    <EmbeddedResource Include="Locales\Strings.nl.resx" />
+    <EmbeddedResource Include="Locales\Strings.pl.resx" />
+    <EmbeddedResource Include="Locales\Strings.pt-BR.resx" />
+    <EmbeddedResource Include="Locales\Strings.sv-SE.resx" />
+    <EmbeddedResource Include="Locales\Strings.tr.resx" />
+    <EmbeddedResource Include="Locales\Strings.zh-CN.resx" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Locales\Strings.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProblemsForm.resx">
+      <DependentUpon>ProblemsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 und x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
