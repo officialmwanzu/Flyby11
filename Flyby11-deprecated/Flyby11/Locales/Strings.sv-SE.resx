@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="compPatch_debugCancel" xml:space="preserve">
+    <value>Förbikoppling avbruten av användaren.</value>
+  </data>
+  <data name="compPatch_debugNotRemovableDrive" xml:space="preserve">
+    <value>Användaren försökte välja en icke flyttbar enhet.</value>
+  </data>
+  <data name="compPatch_debugNoUSBDrive" xml:space="preserve">
+    <value>Ingen USB-enhet har valts för modifiering.</value>
+  </data>
+  <data name="compPatch_msgFailedEx" xml:space="preserve">
+    <value>Det gick inte att utföra modifieringen av förbikopplingen:</value>
+  </data>
+  <data name="compPatch_msgNotRemovableDrive" xml:space="preserve">
+    <value>Den valda sökvägen är inte en flyttbar enhet. Välj en USB-enhet.</value>
+  </data>
+  <data name="compPatch_msgSelectDrive" xml:space="preserve">
+    <value>Välj USB-enheten som innehåller dina Windows 11-installationsfiler.\nDen här funktionen lägger till en kompatibilitetsändring för att kringgå vissa systemkrav.\nKompatibel med enheter förberedda av alla verktyg, inklusive Rufus. Se till att enheten är klar!</value>
+  </data>
+  <data name="compPatch_msgSelectDriveConfirm" xml:space="preserve">
+    <value>Detta kommer att verkställa ändringar för förbikoppling av kompatibilitet på den valda USB-enheten. Fortsätta?</value>
+  </data>
+  <data name="compPatch_msgSuccess" xml:space="preserve">
+    <value>Förbikoppling klar!</value>
+  </data>
+  <data name="ctl_FormTitle" xml:space="preserve">
+    <value>Flyby11 uppgraderingsassistent</value>
+  </data>
+  <data name="ctl_inkCompPatch" xml:space="preserve">
+    <value>Applicera kompatibilitetskorrigering på ISO-filen (ren installation)</value>
+  </data>
+  <data name="ctl_linkCiuv" xml:space="preserve">
+    <value>Kan jag uppgradera till Windows 11?</value>
+  </data>
+  <data name="ctl_linkVote" xml:space="preserve">
+    <value>Fungerade uppgraderingen?</value>
+  </data>
+  <data name="ctl_statusLabel" xml:space="preserve">
+    <value>Dra och släpp Windows 11 ISO-filen för att förbikoppla och installera den på hårdvara som inte stöds (uppgradering på plats).</value>
+  </data>
+  <data name="faq_a1" xml:space="preserve">
+    <value>A: Du kan ladda ner den senaste ISO-filen från den officiella Microsoft-webbplatsen eller använda Fido Downloader.</value>
+  </data>
+  <data name="faq_a2" xml:space="preserve">
+    <value>A: Om du lyckas installera Windows 11 och sparat lite pengar, lämna gärna något som tack för hjälpen här.</value>
+  </data>
+  <data name="faq_a2Link" xml:space="preserve">
+    <value>Klicka här för att donera och visa ditt stöd.</value>
+  </data>
+  <data name="faq_a3" xml:space="preserve">
+    <value>A: När ISO-filen är monterad körs installationsprocessen i bakgrunden. Windows-installationsprogrammet startar och guidar dig genom stegen som krävs för att installera Windows 11 på din dator.</value>
+  </data>
+  <data name="faq_a4" xml:space="preserve">
+    <value>A: Kontrollera felmeddelandena och rapportera det på GitHub.</value>
+  </data>
+  <data name="faq_a5" xml:space="preserve">
+    <value>A: Ja, Microsoft har lämnat en bakdörr öppen. Den här metoden utnyttjar en funktion i installationsprocessen för Windows 11 som använder Windows Server-varianten av installationen. Till skillnad från den vanliga Windows 11-installationen hoppar denna variant över de flesta kontroller av hårdvarukompatibilitet.</value>
+  </data>
+  <data name="faq_a6" xml:space="preserve">
+    <value>A: Enligt Microsoft bör du slänga din dator. Jag skulle föreslå att du installerar Linux på den och överger Windows.</value>
+  </data>
+  <data name="faq_a7" xml:space="preserve">
+    <value>A: Utvecklaren är Belim även känd som Builtbybel som har bidragit med mycket kod till Windows-communityt.</value>
+  </data>
+  <data name="faq_a7Link" xml:space="preserve">
+    <value>Klicka här för att lära dig mer om utvecklarens arbete.</value>
+  </data>
+  <data name="faq_downloadFido" xml:space="preserve">
+    <value>Ladda ner via Fido (rekommenderas)</value>
+  </data>
+  <data name="faq_downloadMS" xml:space="preserve">
+    <value>Microsofts webbplats</value>
+  </data>
+  <data name="faq_header" xml:space="preserve">
+    <value>Vanliga frågor (FAQ)</value>
+  </data>
+  <data name="faq_q1" xml:space="preserve">
+    <value>Q: Var kan jag få tag i den senaste ISO-filen med Windows 11?</value>
+  </data>
+  <data name="faq_q2" xml:space="preserve">
+    <value>Q: Hur kan jag stöda utvecklaren?</value>
+  </data>
+  <data name="faq_q3" xml:space="preserve">
+    <value>Q: Hur fungerar installationsprocessen när ISO-filen är monterad?</value>
+  </data>
+  <data name="faq_q4" xml:space="preserve">
+    <value>Q: Vad händer om jag stöter på problem under installationen?</value>
+  </data>
+  <data name="faq_q5" xml:space="preserve">
+    <value>Q: Är det lagligt att använda denna metoden?</value>
+  </data>
+  <data name="faq_q6" xml:space="preserve">
+    <value>Q: Vilka är mina alternativ om min dator inte stöds?</value>
+  </data>
+  <data name="faq_q7" xml:space="preserve">
+    <value>Q: Vem är utvecklaren?</value>
+  </data>
+  <data name="ciuView_lblPtAns" xml:space="preserve">
+    <value>1. Enheten kör en version av Windows 10 som stöds för närvarande. Om enheten för närvarande inte kör en version av Windows 10 som stöds, uppgradera till en version av Windows 10 som stöds.</value>
+  </data>
+  <data name="ciuView_lblPtAns2" xml:space="preserve">
+    <value>2. Enheten uppfyller</value>
+  </data>
+  <data name="ciuView_lblPtAns3" xml:space="preserve">
+    <value>1. Ladda ner och kör</value>
+  </data>
+  <data name="ciuView_lblPtAns4" xml:space="preserve">
+    <value>2. Välj följande genväg för Windows Update och välj sedan knappen sök efter uppdateringar:</value>
+  </data>
+  <data name="ciuView_lblPtAns5" xml:space="preserve">
+    <value>3. Din enhet uppfyller inte de officiella kraven för Windows 11? Du kan använda en kompatibilitetskorrigering för att aktivera uppgradering på plats via Windows Update.</value>
+  </data>
+  <data name="ciuView_lblPtHdr" xml:space="preserve">
+    <value>En befintlig Windows 10-enhet kan uppgraderas till Windows 11 om den uppfyller följande kriterier:</value>
+  </data>
+  <data name="ciuView_lblPtHdr2" xml:space="preserve">
+    <value>För att kontrollera om en Windows 10-enhet är lämplig att uppgradera till Windows 11, följ ett av dessa alternativ:</value>
+  </data>
+  <data name="ciuView_linkPtAns2" xml:space="preserve">
+    <value>de minsta hårdvaruspecifikationerna för att köra Windows 11.</value>
+  </data>
+  <data name="ciuView_linkPtAns3" xml:space="preserve">
+    <value>WhyNotWin11-appen för att bekräfta att din enhet uppfyller de lägsta systemkraven</value>
+  </data>
+  <data name="msg_InstallReady" xml:space="preserve">
+    <value>Installationen av Windows 11 kan nu fortsätta. Följ instruktionerna i installationsfönstret.</value>
+    <comment>Install</comment>
+  </data>
+  <data name="_debugInstallReady" xml:space="preserve">
+    <value>Du är redo att installera Windows 11 på hårdvaran som inte stöds! Ignorera fönstret om 'Windows Server'; du är klar!</value>
+    <comment>Install</comment>
+  </data>
+  <data name="_debugInstallRunElevated" xml:space="preserve">
+    <value>Startar installationsprocessen med förhöjda privilegier...</value>
+    <comment>Install</comment>
+  </data>
+  <data name="_debugStatusHandleIsoEx" xml:space="preserve">
+    <value>Hoppsan! Något gick fel:</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="_debugStatusMounting" xml:space="preserve">
+    <value>Monterar ISO-filen... Snart klart!</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="_debugStatusMountingFailed" xml:space="preserve">
+    <value>Det gick inte att montera ISO-filen. Försök igen.</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="_debugStatusMountingSuccess" xml:space="preserve">
+    <value>ISO-filen monterad! Låt oss göra Windows 11 klar!</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="_debugStatusRunning" xml:space="preserve">
+    <value>Nästan där! Vi förbereder installationen...</value>
+    <comment>Install</comment>
+  </data>
+  <data name="_debugStatusSetupFileNotFound" xml:space="preserve">
+    <value>Installationsfilen hittades inte i</value>
+    <comment>Mounting</comment>
+  </data>
+  <data name="ctl_linkSelectComputer" xml:space="preserve">
+    <value>Välj från datorn</value>
+  </data>
+  <data name="msgClosing" xml:space="preserve">
+    <value />
+  </data>
+</root>
