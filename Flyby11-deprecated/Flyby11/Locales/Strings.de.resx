@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="compPatch_debugCancel" xml:space="preserve">
+    <value>Umgehungspatch vom Benutzer abgebrochen.</value>
+  </data>
+  <data name="compPatch_debugNotRemovableDrive" xml:space="preserve">
+    <value>Benutzer hat versucht, ein nicht entfernbares Laufwerk auszuwählen.</value>
+  </data>
+  <data name="compPatch_debugNoUSBDrive" xml:space="preserve">
+    <value>Es wurde kein USB-Laufwerk für den Patch ausgewählt.</value>
+  </data>
+  <data name="compPatch_msgFailedEx" xml:space="preserve">
+    <value>Fehler beim Anwenden des Umgehungspatches:</value>
+  </data>
+  <data name="compPatch_msgNotRemovableDrive" xml:space="preserve">
+    <value>Der ausgewählte Pfad ist kein entfernbares Laufwerk. Bitte wähle ein USB-Laufwerk aus.</value>
+  </data>
+  <data name="compPatch_msgSelectDrive" xml:space="preserve">
+    <value>Wähle das USB-Laufwerk aus, das deine Windows 11-Installationsdateien enthält.\nDiese Funktion fügt einen Kompatibilitäts-Patch hinzu, um bestimmte Systemanforderungen zu umgehen.\nKompatibel mit Laufwerken, die mit jedem Tool vorbereitet wurden, einschließlich Rufus. Stelle sicher, dass das Laufwerk bereit ist!</value>
+  </data>
+  <data name="compPatch_msgSelectDriveConfirm" xml:space="preserve">
+    <value>Dies wird die Kompatibilitäts-Umgehungseinstellungen auf das ausgewählte USB-Laufwerk anwenden. Fortfahren?</value>
+  </data>
+  <data name="compPatch_msgSuccess" xml:space="preserve">
+    <value>Umgehungspatch wurde erfolgreich angewendet!</value>
+  </data>
+  <data name="ctl_FormTitle" xml:space="preserve">
+    <value>Flyby11 Upgrade-Assistent</value>
+  </data>
+  <data name="ctl_inkCompPatch" xml:space="preserve">
+    <value>Kompatibilitäts-Patch auf ISO anwenden (Saubere Installation)</value>
+  </data>
+  <data name="ctl_linkCiuv" xml:space="preserve">
+    <value>Kann ich auf Windows 11 upgraden?</value>
+  </data>
+  <data name="ctl_linkVote" xml:space="preserve">
+    <value>Hat das Upgrade funktioniert?</value>
+  </data>
+  <data name="ctl_statusLabel" xml:space="preserve">
+    <value>Ziehe die Windows 11 ISO hierher, um sie zu patchen und auf nicht unterstützter Hardware zu installieren (Inplace-Upgrade).</value>
+  </data>
+  <data name="faq_a1" xml:space="preserve">
+    <value>A: Du kannst die neueste ISO von der offiziellen Microsoft-Website herunterladen oder den Fido Downloader verwenden.</value>
+  </data>
+  <data name="faq_a2" xml:space="preserve">
+    <value>A: Wenn du Windows 11 erfolgreich installiert hast und dabei etwas Geld gespart hast, kannst du hier gerne ein kleines Dankeschön hinterlassen. Deine Unterstützung hält das Projekt am Leben – und hilft auch anderen. </value>
+  </data>
+  <data name="faq_a2Link" xml:space="preserve">
+    <value>Klicke hier, um zu spenden und deine Unterstützung zu zeigen.</value>
+  </data>
+  <data name="faq_a3" xml:space="preserve">
+    <value>A: Sobald die ISO eingebunden ist, läuft der Setup-Prozess im Hintergrund. Der Windows-Installer startet und führt dich durch die erforderlichen Schritte, um Windows 11 auf deinem Gerät zu installieren.</value>
+  </data>
+  <data name="faq_a4" xml:space="preserve">
+    <value>A: Bitte überprüfe die Fehlermeldungen und melde sie auf GitHub.</value>
+  </data>
+  <data name="faq_a5" xml:space="preserve">
+    <value>A: Ja, Microsoft hat eine Hintertür offen gelassen. Diese Methode nutzt eine Funktion des Windows 11-Setup-Prozesses, die die Windows Server-Variante der Installation verwendet. Im Gegensatz zum normalen Windows 11-Setup überspringt diese Variante die meisten Hardware-Kompatibilitätsprüfungen.</value>
+  </data>
+  <data name="faq_a6" xml:space="preserve">
+    <value>A: Laut Microsoft solltest du deinen PC wegwerfen. Ich würde empfehlen, Linux darauf zu installieren und von Windows wegzugehen.</value>
+  </data>
+  <data name="faq_a7" xml:space="preserve">
+    <value>A: Der Entwickler ist Belim, auch bekannt als Builtbybel, der viel Code zur Windows-Community beigetragen hat.</value>
+  </data>
+  <data name="faq_a7Link" xml:space="preserve">
+    <value>Klicke hier, um mehr über die Arbeit des Entwicklers zu erfahren.</value>
+  </data>
+  <data name="faq_downloadFido" xml:space="preserve">
+    <value>Herunterladen über Fido (Empfohlen)</value>
+  </data>
+  <data name="faq_downloadMS" xml:space="preserve">
+    <value>Microsoft-Website</value>
+  </data>
+  <data name="faq_header" xml:space="preserve">
+    <value>Häufig gestellte Fragen (FAQ)</value>
+  </data>
+  <data name="faq_q1" xml:space="preserve">
+    <value>F: Wo kann ich die neueste Windows 11 ISO herunterladen?</value>
+  </data>
+  <data name="faq_q2" xml:space="preserve">
+    <value>F: Wie kann ich den Entwickler unterstützen?</value>
+  </data>
+  <data name="faq_q3" xml:space="preserve">
+    <value>F: Wie funktioniert der Setup-Prozess, sobald die ISO eingebunden ist?</value>
+  </data>
+  <data name="faq_q4" xml:space="preserve">
+    <value>F: Was, wenn ich während der Installation auf Probleme stoße?</value>
+  </data>
+  <data name="faq_q5" xml:space="preserve">
+    <value>F: Ist es legal, diese Methode zu verwenden?</value>
+  </data>
+  <data name="faq_q6" xml:space="preserve">
+    <value>F: Was sind meine Alternativen, wenn mein PC nicht unterstützt wird?</value>
+  </data>
+  <data name="faq_q7" xml:space="preserve">
+    <value>F: Wer ist der Entwickler?</value>
+  </data>
+  <data name="ciuView_lblPtAns" xml:space="preserve">
+    <value>1. Auf dem Gerät läuft eine aktuell unterstützte Version von Windows 10. Wenn auf dem Gerät aktuell keine unterstützte Version von Windows 10 läuft, führen Sie ein Upgrade auf eine unterstützte Version von Windows 10 durch.</value>
+  </data>
+  <data name="ciuView_lblPtAns2" xml:space="preserve">
+    <value>2. Das Gerät erfüllt</value>
+  </data>
+  <data name="ciuView_lblPtAns3" xml:space="preserve">
+    <value>1. Prüfen mit der App</value>
+  </data>
+  <data name="ciuView_lblPtAns4" xml:space="preserve">
+    <value>2. Wählen Sie die folgende Windows Update-Verknüpfung und dann die Schaltfläche Nach Updates suchen:</value>
+  </data>
+  <data name="ciuView_lblPtAns5" xml:space="preserve">
+    <value>3. Ihr Gerät erfüllt nicht die offiziellen Anforderungen für Windows 11? Sie können einen Kompatibilitätspatch anwenden, um das Inplace Upgrade über Windows Update zu ermöglichen.</value>
+  </data>
+  <data name="ciuView_lblPtHdr" xml:space="preserve">
+    <value>Ein vorhandenes Windows 10-Gerät kann auf Windows 11 aktualisiert werden, wenn es die folgenden Kriterien erfüllt:</value>
+  </data>
+  <data name="ciuView_lblPtHdr2" xml:space="preserve">
+    <value>Um festzustellen, ob ein Windows 10-Gerät für ein Upgrade auf Windows 11 berechtigt ist, folgen Sie einer dieser Optionen:</value>
+  </data>
+  <data name="ciuView_linkPtAns2" xml:space="preserve">
+    <value>die Mindesthardwarespezifikationen zum Ausführen von Windows 11.</value>
+  </data>
+  <data name="ciuView_linkPtAns3" xml:space="preserve">
+    <value>WhyNotWin11-App, um zu bestätigen, dass Ihr Gerät die Mindestsystemanforderungen erfüllt</value>
+  </data>
+  <data name="msg_InstallReady" xml:space="preserve">
+    <value>Die Windows 11-Installation kann jetzt fortgesetzt werden. Bitte folge den Anweisungen im Setup-Fenster.</value>
+  </data>
+  <data name="_debugInstallReady" xml:space="preserve">
+    <value>Du bist bereit, Windows 11 auf nicht unterstützter Hardware zu installieren! Einfach die Meldung „Windows Server“ ignorieren – und los geht's!</value>
+  </data>
+  <data name="_debugInstallRunElevated" xml:space="preserve">
+    <value>Der Setup-Prozess wird mit erhöhten Berechtigungen gestartet...</value>
+  </data>
+  <data name="_debugStatusHandleIsoEx" xml:space="preserve">
+    <value>Ups! Da ist etwas schiefgelaufen:</value>
+  </data>
+  <data name="_debugStatusMounting" xml:space="preserve">
+    <value>ISO wird eingebunden... Bleib dran!</value>
+  </data>
+  <data name="_debugStatusMountingFailed" xml:space="preserve">
+    <value>Das Einbinden der ISO ist fehlgeschlagen. Bitte versuche es erneut.</value>
+  </data>
+  <data name="_debugStatusMountingSuccess" xml:space="preserve">
+    <value>ISO erfolgreich eingebunden! Los geht's mit der Vorbereitung von Windows 11!</value>
+  </data>
+  <data name="_debugStatusRunning" xml:space="preserve">
+    <value>Fast geschafft! Wir bereiten den Setup vor...</value>
+  </data>
+  <data name="_debugStatusSetupFileNotFound" xml:space="preserve">
+    <value>Setup-Datei nicht gefunden in</value>
+  </data>
+  <data name="ctl_linkSelectComputer" xml:space="preserve">
+    <value>Vom Computer auswählen</value>
+  </data>
+  <data name="msgClosing" xml:space="preserve">
+    <value>Vielen Dank, dass du meine App nutzt!\n\nIch habe diese Anwendung in meiner Freizeit entwickelt, um dir den Umstieg von Windows 10 auf Windows 11 zu erleichtern – auch auf PCs, die laut Microsofts Hardwarevorgaben eigentlich nicht unterstützt werden.\n\nMeine App hilft dir, den Kauf eines neuen Rechners zu vermeiden und trägt aktiv dazu bei, unnötigen Elektroschrott zu verhindern.\n\nNormalerweise verlange ich für meine Projekte keinerlei Geld – weder für die Entwicklung noch für den Support.\nDa diese App jedoch deutlich umfangreicher ist, mehr Funktionen bietet und auch mehr Supportaufwand verursacht, würde ich mich freuen, wenn du – sofern es dir möglich ist – eine kleine freiwillige Spende in Erwägung ziehst.\n\nNatürlich nur, wenn du möchtest und es dir leisten kannst.\n\nMöchtest du jetzt auf PayPal spenden?
+</value>
+  </data>
+</root>
