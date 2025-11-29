@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="compPatch_debugCancel" xml:space="preserve">
+    <value>החלת טלאי העקיפה בוטלה על ידי המשתמש.</value>
+  </data>
+  <data name="compPatch_debugNotRemovableDrive" xml:space="preserve">
+    <value>המשתמש ניסה לבחור כונן שאינו נשלף.</value>
+  </data>
+  <data name="compPatch_debugNoUSBDrive" xml:space="preserve">
+    <value>לא נבחר כונן USB לצורך החלת הטלאי.</value>
+  </data>
+  <data name="compPatch_msgFailedEx" xml:space="preserve">
+    <value>החלת טלאי העקיפה נכשלה:</value>
+  </data>
+  <data name="compPatch_msgNotRemovableDrive" xml:space="preserve">
+    <value>הנתיב שנבחר אינו כונן נשלף. אנא בחר כונן USB.</value>
+  </data>
+  <data name="compPatch_msgSelectDrive" xml:space="preserve">
+    <value>בחר את כונן ה-USB שמכיל את קובצי ההתקנה של Windows 11.\nפונקציה זו מוסיפה טלאי תאימות כדי לעקוף דרישות מערכת מסוימות.\nתואם לכוננים שהוכנו בכלים שונים, כולל Rufus. ודא שהכונן מוכן!</value>
+  </data>
+  <data name="compPatch_msgSelectDriveConfirm" xml:space="preserve">
+    <value>פעולה זו תחיל הגדרות עקיפת תאימות על כונן ה-USB שנבחר. להמשיך?</value>
+  </data>
+  <data name="compPatch_msgSuccess" xml:space="preserve">
+    <value>טלאי העקיפה הוחל בהצלחה!</value>
+  </data>
+  <data name="ctl_FormTitle" xml:space="preserve">
+    <value>מסייע השדרוג Flyby11</value>
+  </data>
+  <data name="ctl_inkCompPatch" xml:space="preserve">
+    <value>החל טלאי תאימות על ISO (התקנה נקייה)</value>
+  </data>
+  <data name="ctl_linkCiuv" xml:space="preserve">
+    <value>האם אני יכול לשדרג ל-Windows 11?</value>
+  </data>
+  <data name="ctl_linkVote" xml:space="preserve">
+    <value>האם השדרוג הצליח?</value>
+  </data>
+  <data name="ctl_statusLabel" xml:space="preserve">
+    <value>גרור את קובץ ה־ISO של Windows 11 לכאן כדי להחיל עליו טלאי ולהתקין על חומרה שאינה נתמכת (שדרוג במקום).</value>
+  </data>
+  <data name="faq_a1" xml:space="preserve">
+    <value>ת: ניתן להוריד את קובץ ה־ISO העדכני מאתר מיקרוסופט הרשמי או בעזרת Fido Downloader.</value>
+  </data>
+  <data name="faq_a2" xml:space="preserve">
+    <value>ת: אם הצלחת להתקין את Windows 11 וחסכת כסף – תוכל להשאיר כאן תרומה קטנה כהוקרת תודה.</value>
+  </data>
+  <data name="faq_a2Link" xml:space="preserve">
+    <value>לחץ כאן כדי לתרום ולהביע תמיכה.</value>
+  </data>
+  <data name="faq_a3" xml:space="preserve">
+    <value>ת: לאחר שה־ISO נצפה (mount), תהליך ההתקנה פועל ברקע. מתקין Windows יתחיל וידריך אותך בשלבים הנדרשים להתקנה.</value>
+  </data>
+  <data name="faq_a4" xml:space="preserve">
+    <value>ת: בדוק את הודעות השגיאה ודווח עליהן ב-GitHub.</value>
+  </data>
+  <data name="faq_a5" xml:space="preserve">
+    <value>ת: כן, מיקרוסופט השאירה דלת אחורית פתוחה. שיטה זו מנצלת את גרסת ההתקנה של Windows Server, אשר מדלגת על רוב בדיקות התאימות לחומרה.</value>
+  </data>
+  <data name="faq_a6" xml:space="preserve">
+    <value>ת: לפי מיקרוסופט עליך לזרוק את המחשב. אני ממליץ להתקין עליו Linux ולעבור מ-Windows.</value>
+  </data>
+  <data name="faq_a7" xml:space="preserve">
+    <value>ת: המפתח הוא Belim, המוכר גם בשם Builtbybel, שתרם רבות לקהילת Windows.</value>
+  </data>
+  <data name="faq_a7Link" xml:space="preserve">
+    <value>לחץ כאן כדי ללמוד עוד על עבודתו של המפתח.</value>
+  </data>
+  <data name="faq_downloadFido" xml:space="preserve">
+    <value>הורדה דרך Fido (מומלץ)</value>
+  </data>
+  <data name="faq_downloadMS" xml:space="preserve">
+    <value>אתר Microsoft</value>
+  </data>
+  <data name="faq_header" xml:space="preserve">
+    <value>שאלות נפוצות (FAQ)</value>
+  </data>
+  <data name="faq_q1" xml:space="preserve">
+    <value>ש: היכן ניתן להוריד את Windows 11 ISO העדכני?</value>
+  </data>
+  <data name="faq_q2" xml:space="preserve">
+    <value>ש: כיצד ניתן לתמוך במפתח?</value>
+  </data>
+  <data name="faq_q3" xml:space="preserve">
+    <value>ש: כיצד פועל תהליך ההתקנה לאחר צפייה ב־ISO?</value>
+  </data>
+  <data name="faq_q4" xml:space="preserve">
+    <value>ש: מה לעשות במקרה של שגיאה בהתקנה?</value>
+  </data>
+  <data name="faq_q5" xml:space="preserve">
+    <value>ש: האם מותר חוקית להשתמש בשיטה הזו?</value>
+  </data>
+  <data name="faq_q6" xml:space="preserve">
+    <value>ש: מהן החלופות אם המחשב שלי לא נתמך?</value>
+  </data>
+  <data name="faq_q7" xml:space="preserve">
+    <value>ש: מי המפתח?</value>
+  </data>
+  <data name="ciuView_lblPtAns" xml:space="preserve">
+    <value>1. המכשיר פועל עם גרסה נתמכת של Windows 10. אם המכשיר לא מריץ גרסה נתמכת, יש לשדרג לגרסה נתמכת של Windows 10.</value>
+  </data>
+  <data name="ciuView_lblPtAns2" xml:space="preserve">
+    <value>2. המכשיר עומד ב</value>
+  </data>
+  <data name="ciuView_lblPtAns3" xml:space="preserve">
+    <value>1. הורד והפעל את</value>
+  </data>
+  <data name="ciuView_lblPtAns4" xml:space="preserve">
+    <value>2. בחר את קיצור הדרך הבא של Windows Update ולאחר מכן לחץ על הלחצן "בדוק אם קיימים עדכונים":</value>
+  </data>
+  <data name="ciuView_lblPtAns5" xml:space="preserve">
+    <value>3. המכשיר שלך לא עומד בדרישות הרשמיות של Windows 11? ניתן להחיל טלאי תאימות כדי לאפשר שדרוג במקום דרך Windows Update.</value>
+  </data>
+  <data name="ciuView_lblPtHdr" xml:space="preserve">
+    <value>ניתן לשדרג מכשיר עם Windows 10 לגרסה 11 אם הוא עומד בקריטריונים הבאים:</value>
+  </data>
+  <data name="ciuView_lblPtHdr2" xml:space="preserve">
+    <value>כדי לבדוק אם מכשיר Windows 10 זכאי לשדרוג ל-Windows 11, בצע אחת מהאפשרויות הבאות:</value>
+  </data>
+  <data name="ciuView_linkPtAns2" xml:space="preserve">
+    <value>המפרט המינימלי להפעלת Windows 11.</value>
+  </data>
+  <data name="ciuView_linkPtAns3" xml:space="preserve">
+    <value>אפליקציית WhyNotWin11 לאימות עמידת המכשיר בדרישות המערכת המינימליות</value>
+  </data>
+  <data name="msg_InstallReady" xml:space="preserve">
+    <value>ניתן כעת להמשיך בהתקנת Windows 11. נא לעקוב אחר ההוראות בחלון ההתקנה.</value>
+  </data>
+  <data name="_debugInstallReady" xml:space="preserve">
+    <value>אתה מוכן להתקנת Windows 11 על חומרה לא נתמכת! התעלם מההודעה 'Windows Server' – הכל מוכן!</value>
+  </data>
+  <data name="_debugInstallRunElevated" xml:space="preserve">
+    <value>מתחיל את תהליך ההתקנה עם הרשאות מנהל...</value>
+  </data>
+  <data name="_debugStatusHandleIsoEx" xml:space="preserve">
+    <value>אופס! משהו השתבש:</value>
+  </data>
+  <data name="_debugStatusMounting" xml:space="preserve">
+    <value>מצרף את קובץ ה־ISO... אנא המתן!</value>
+  </data>
+  <data name="_debugStatusMountingFailed" xml:space="preserve">
+    <value>צירוף קובץ ה־ISO נכשל. נסה שוב.</value>
+  </data>
+  <data name="_debugStatusMountingSuccess" xml:space="preserve">
+    <value>קובץ ה־ISO צורף בהצלחה! מתחילים את הכנת Windows 11!</value>
+  </data>
+  <data name="_debugStatusRunning" xml:space="preserve">
+    <value>כמעט סיימנו! אנו מכינים את תהליך ההתקנה...</value>
+  </data>
+  <data name="_debugStatusSetupFileNotFound" xml:space="preserve">
+    <value>קובץ ההתקנה לא נמצא ב</value>
+  </data>
+  <data name="ctl_linkSelectComputer" xml:space="preserve">
+    <value>בחר מהמחשב</value>
+  </data>
+  <data name="msgClosing" xml:space="preserve">
+    <value>תודה שהשתמשת באפליקציה שלי!\n\nפיתחתי את האפליקציה הזו בזמני הפנוי כדי לעזור לך לשדרג מ־Windows 10 ל־Windows 11 – גם על מחשבים שאינם נתמכים לפי דרישות החומרה של מיקרוסופט.\n\nהאפליקציה שלי עוזרת לך להימנע מקניית מחשב חדש ותורמת להפחתת פסולת אלקטרונית מיותרת.\n\nבדרך כלל אני לא גובה תשלום על הפרויקטים שלי – לא עבור הפיתוח ולא עבור התמיכה.\nאבל מכיוון שאפליקציה זו מקיפה יותר, כוללת יותר תכונות ודורשת יותר תמיכה, אשמח אם תוכל לשקול תרומה קטנה בהתנדבות, אם זה אפשרי עבורך.\n\nכמובן, רק אם אתה רוצה ויכול להרשות לעצמך.\n\nהאם ברצונך לתרום ב-PayPal עכשיו?</value>
+  </data>
+</root>
