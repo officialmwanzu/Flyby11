@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="compPatch_debugCancel" xml:space="preserve">
+    <value>تم إلغاء التصحيح بواسطة المستخدم.</value>
+  </data>
+  <data name="compPatch_debugNotRemovableDrive" xml:space="preserve">
+    <value>حاول المستخدم اختيار محرك أقراص غير قابل للإزالة.</value>
+  </data>
+  <data name="compPatch_debugNoUSBDrive" xml:space="preserve">
+    <value>لم يتم اختيار أي محرك أقراص USB للتصحيح.</value>
+  </data>
+  <data name="compPatch_msgFailedEx" xml:space="preserve">
+    <value>فشل في تطبيق التصحيح:</value>
+  </data>
+  <data name="compPatch_msgNotRemovableDrive" xml:space="preserve">
+    <value>المسار المحدد ليس محرك أقراص قابل للإزالة. يرجى اختيار محرك أقراص USB.</value>
+  </data>
+  <data name="compPatch_msgSelectDrive" xml:space="preserve">
+    <value>اختر محرك أقراص USB الذي يحتوي على ملفات تثبيت Windows 11 الخاصة بك.\nتضيف هذه الميزة تصحيح توافق لتجاوز متطلبات النظام معينة.\nمتوافق مع الأقراص المعدة بواسطة أي أداة، بما في ذلك Rufus. تأكد من أن المحرك جاهز!</value>
+  </data>
+  <data name="compPatch_msgSelectDriveConfirm" xml:space="preserve">
+    <value>سيتم تطبيق إعدادات تجاوز التوافق على محرك أقراص USB المحدد. هل تريد المتابعة؟</value>
+  </data>
+  <data name="compPatch_msgSuccess" xml:space="preserve">
+    <value>تم تطبيق التصحيح بنجاح!</value>
+  </data>
+  <data name="ctl_FormTitle" xml:space="preserve">
+    <value>مساعد ترقية Flyby11</value>
+  </data>
+  <data name="ctl_inkCompPatch" xml:space="preserve">
+    <value>تطبيق تصحيح التوافق على ISO (تثبيت نظيف)</value>
+  </data>
+  <data name="ctl_linkCiuv" xml:space="preserve">
+    <value>هل يمكنني الترقية إلى Windows 11؟</value>
+  </data>
+  <data name="ctl_linkVote" xml:space="preserve">
+    <value>هل نجحت الترقية؟</value>
+  </data>
+  <data name="ctl_statusLabel" xml:space="preserve">
+    <value>اسحب وأفلت ملف ISO الخاص بـ Windows 11 لتصحيحه وتثبيته على الأجهزة غير المدعومة (ترقية مكانية).</value>
+  </data>
+  <data name="faq_a1" xml:space="preserve">
+    <value>ج: يمكنك تنزيل أحدث ISO من الموقع الرسمي لشركة Microsoft أو استخدام Fido Downloader.</value>
+  </data>
+  <data name="faq_a2" xml:space="preserve">
+    <value>ج: إذا قمت بتثبيت Windows 11 بنجاح ووفرت بعض المال، فلا تتردد في ترك شيء صغير كعلامة شكر هنا.</value>
+  </data>
+  <data name="faq_a2Link" xml:space="preserve">
+    <value>انقر هنا للتبرع وإظهار دعمك.</value>
+  </data>
+  <data name="faq_a3" xml:space="preserve">
+    <value>ج: بمجرد تحميل ISO، يتم تشغيل عملية الإعداد في الخلفية. يبدأ مثبت Windows، موجهًا إياك خلال الخطوات المطلوبة لتثبيت Windows 11 على جهازك.</value>
+  </data>
+  <data name="faq_a4" xml:space="preserve">
+    <value>ج: يرجى التحقق من رسائل الخطأ والإبلاغ عنها على GitHub.</value>
+  </data>
+  <data name="faq_a5" xml:space="preserve">
+    <value>ج: نعم، تركت Microsoft بابًا خلفيًا مفتوحًا. تستفيد هذه الطريقة من ميزة في عملية إعداد Windows 11 تستخدم إصدار Windows Server من التثبيت. على عكس إعداد Windows 11 العادي، تتخطى هذه النسخة معظم فحوصات توافق الأجهزة.</value>
+  </data>
+  <data name="faq_a6" xml:space="preserve">
+    <value>ج: وفقًا لشركة Microsoft، يجب عليك التخلص من جهاز الكمبيوتر الخاص بك. أوصي بتثبيت Linux عليه والابتعاد عن Windows.</value>
+  </data>
+  <data name="faq_a7" xml:space="preserve">
+    <value>ج: المطور هو Belim، المعروف أيضًا باسم Builtbybel، الذي ساهم بالكثير من الشيفرة في مجتمع Windows.</value>
+  </data>
+  <data name="faq_a7Link" xml:space="preserve">
+    <value>انقر هنا لمعرفة المزيد عن عمل المطور.</value>
+  </data>
+  <data name="faq_downloadFido" xml:space="preserve">
+    <value>تنزيل عبر Fido (موصى به)</value>
+  </data>
+  <data name="faq_downloadMS" xml:space="preserve">
+    <value>موقع Microsoft</value>
+  </data>
+  <data name="faq_header" xml:space="preserve">
+    <value>الأسئلة الشائعة (FAQ)</value>
+  </data>
+  <data name="faq_q1" xml:space="preserve">
+    <value>س: أين يمكنني الحصول على أحدث Windows 11 ISO؟</value>
+  </data>
+  <data name="faq_q2" xml:space="preserve">
+    <value>س: كيف يمكنني دعم المطور؟</value>
+  </data>
+  <data name="faq_q3" xml:space="preserve">
+    <value>س: كيف تعمل عملية الإعداد بمجرد تحميل ISO؟</value>
+  </data>
+  <data name="faq_q4" xml:space="preserve">
+    <value>س: ماذا لو واجهت مشاكل أثناء التثبيت؟</value>
+  </data>
+  <data name="faq_q5" xml:space="preserve">
+    <value>س: هل من القانوني استخدام هذه الطريقة؟</value>
+  </data>
+  <data name="faq_q6" xml:space="preserve">
+    <value>س: ما هي البدائل إذا لم يكن جهازي مدعومًا؟</value>
+  </data>
+  <data name="faq_q7" xml:space="preserve">
+    <value>س: من هو المطور؟</value>
+  </data>
+  <data name="ciuView_lblPtAns" xml:space="preserve">
+    <value>1. الجهاز يعمل بإصدار مدعوم حاليًا من Windows 10. إذا لم يكن الجهاز يعمل بإصدار مدعوم حاليًا من Windows 10، قم بالترقية إلى إصدار مدعوم من Windows 10.</value>
+  </data>
+  <data name="ciuView_lblPtAns2" xml:space="preserve">
+    <value>2. الجهاز يلبي</value>
+  </data>
+  <data name="ciuView_lblPtAns3" xml:space="preserve">
+    <value>1. قم بتنزيل وتشغيل</value>
+  </data>
+  <data name="ciuView_lblPtAns4" xml:space="preserve">
+    <value>2. اختر اختصار تحديث Windows التالي ثم اختر زر التحقق من التحديثات:</value>
+  </data>
+  <data name="ciuView_lblPtAns5" xml:space="preserve">
+    <value>3. جهازك لا يلبي المتطلبات الرسمية لـ Windows 11؟ يمكنك تطبيق تصحيح التوافق لتمكين الترقية المكانية عبر تحديث Windows.</value>
+  </data>
+  <data name="ciuView_lblPtHdr" xml:space="preserve">
+    <value>يمكن ترقية جهاز Windows 10 الحالي إلى Windows 11 إذا كان يلبي المعايير التالية:</value>
+  </data>
+  <data name="ciuView_lblPtHdr2" xml:space="preserve">
+    <value>للتحقق مما إذا كان جهاز Windows 10 مؤهلاً للترقية إلى Windows 11، اتبع إحدى هذه الخيارات:</value>
+  </data>
+  <data name="ciuView_linkPtAns2" xml:space="preserve">
+    <value>المواصفات الدنيا للأجهزة لتشغيل Windows 11.</value>
+  </data>
+  <data name="ciuView_linkPtAns3" xml:space="preserve">
+    <value>تطبيق WhyNotWin11 لتأكيد أن جهازك يلبي الحد الأدنى من متطلبات النظام</value>
+  </data>
+  <data name="msg_InstallReady" xml:space="preserve">
+    <value>يمكن الآن متابعة تثبيت Windows 11. يرجى اتباع التعليمات في نافذة الإعداد.</value>
+    <comment>تثبيت</comment>
+  </data>
+  <data name="_debugInstallReady" xml:space="preserve">
+    <value>أنت جاهز لتثبيت Windows 11 على الأجهزة غير المدعومة! تجاهل رسالة 'Windows Server'؛ أنت جاهز!</value>
+    <comment>تثبيت</comment>
+  </data>
+  <data name="_debugInstallRunElevated" xml:space="preserve">
+    <value>بدء عملية الإعداد بامتيازات مرتفعة...</value>
+    <comment>تثبيت</comment>
+  </data>
+  <data name="_debugStatusHandleIsoEx" xml:space="preserve">
+    <value>عذرًا! حدث خطأ ما:</value>
+    <comment>تحميل</comment>
+  </data>
+  <data name="_debugStatusMounting" xml:space="preserve">
+    <value>يتم تحميل ISO... انتظر قليلاً!</value>
+    <comment>تحميل</comment>
+  </data>
+  <data name="_debugStatusMountingFailed" xml:space="preserve">
+    <value>فشل تحميل ISO. يرجى المحاولة مرة أخرى.</value>
+    <comment>تحميل</comment>
+  </data>
+  <data name="_debugStatusMountingSuccess" xml:space="preserve">
+    <value>تم تحميل ISO بنجاح! دعنا نجعل هذا Windows 11 جاهزًا!</value>
+    <comment>تحميل</comment>
+  </data>
+  <data name="_debugStatusRunning" xml:space="preserve">
+    <value>قريبًا! نحن نستعد للإعداد...</value>
+    <comment>تثبيت</comment>
+  </data>
+  <data name="_debugStatusSetupFileNotFound" xml:space="preserve">
+    <value>لم يتم العثور على ملف الإعداد في</value>
+    <comment>تحميل</comment>
+  </data>
+  <data name="ctl_linkSelectComputer" xml:space="preserve">
+    <value>اختر من الكمبيوتر</value>
+  </data>
+  <data name="msgClosing" xml:space="preserve">
+    <value />
+  </data>
+</root>
