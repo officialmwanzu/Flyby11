@@ -1,0 +1,64 @@
+# Pattern file for Flyoobe_Profile_Community.txt
+# ============================================================
+# Define which apps to remove or ignore during scan.
+# Supports wildcards, exclusions, and future extensions.
+# ============================================================
+
+# -------------------------------
+# Wildcard Mode (Optional)
+# -------------------------------
+# Uncomment below to flag ALL apps for review/removal.
+# Can be dangerous — use with a strong whitelist!
+# Format: *     or    *.*
+
+!*.*            # Remove ! to enable global match
+
+# -------------------------------
+# Bloatware patterns (To be checked)
+# -------------------------------
+Solitaire
+CandyCrush
+Netflix
+TikTok
+Facebook
+Twitter
+Instagram
+Spotify
+Skype
+OneNote
+OneDrive
+Mail
+Calendar
+Weather
+News
+Maps
+Groove
+Movies
+TV
+Phone
+Feedback
+FeedbackHub
+GetStarted
+Messaging
+Office
+Paint3D
+Print3D
+StickyNotes
+Wallet
+YourPhone
+3DViewer
+Alarms
+VoiceRecorder
+ToDo
+Whiteboard
+ZuneMusic
+ZuneVideo
+DevHome
+Copilot
+Clipchamp
+NarratorQucikStart
+OutlookForWindows
+MSTeams
+SoundRecorder
+HP
+Synaptics
