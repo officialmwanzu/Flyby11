@@ -14,8 +14,8 @@ You can now **choose**:
 
 | Version | Purpose | Features | Download |
 |---------|---------|----------|----------|
-| **Flyby11** (New) | Upgrade + OOBE Toolkit | • Windows 10 → 11 upgrades<br>• OOBE customization<br>• Tweaks & Debloat<br>• Scriptable setup extensions | [⬇ Download FlyOOBE](https://github.com/builtbybel/FlyOOBE/releases/latest) |
-| **Flyby11** (Classic) | Upgrade Only | • Win10 → Win11 Inplace upgrade<br>• Hardware check bypass<br>• Minimal footprint | [⬇ Download Flyby11 Classic](https://github.com/builtbybel/FlyOOBE/releases/latest) |
+| **Flyby11** (New) | Upgrade + OOBE Toolkit | • Windows 10 → 11 upgrades<br>• OOBE customization<br>• Tweaks & Debloat<br>• Scriptable setup extensions | [⬇ Download FlyOOBE](https://github.com/officialmwanzu/FlyOOBE/releases/latest) |
+| **Flyby11** (Classic) | Upgrade Only | • Win10 → Win11 Inplace upgrade<br>• Hardware check bypass<br>• Minimal footprint | [⬇ Download Flyby11 Classic](https://github.com/officialmwanzu/FlyOOBE/releases/latest) |
 ---
 
 ## 🐝 Why FlyOOBE?
@@ -37,7 +37,7 @@ FlyOOBE keeps the original idea alive and pushes it even further.
 ---
 
 No complicated steps.  
-**Just run the tool** (see ["Releases"](https://github.com/builtbybel/FlyOOBE/releases/latest)),  
+**Just run the tool** (see ["Releases"](https://github.com/officialmwanzu/FlyOOBE/releases/latest)),  
 unpack if needed, and you'll be running Windows 11 on your “unsupported” machine in no time.  
 Think of it as sneaking through the back door without anyone noticing.
 
@@ -47,7 +47,7 @@ Think of it as sneaking through the back door without anyone noticing.
 **FlyOOBE method:**
 - Uses Windows Server variant of setup → skips TPM, Secure Boot, CPU checks
 - Still installs **normal Windows 11**
-- ISO download/mount handled automatically (via [Fido script](https://github.com/pbatard/Fido))
+- ISO download/mount handled automatically (via [Fido script](https://github.com/officialmwanzu))
 - Matches Microsoft’s own documented workaround for upgrading unsupported devices ([source](https://support.microsoft.com/en-us/windows/ways-to-install-windows-11-e0edbbfb-cfc5-4011-868b-2ce77ac7c70e))
 
 ---
@@ -91,4 +91,4 @@ Bottom line: Works today — but unsupported means you accept the risk. 😎
 If Flyby11 or FlyOOBE has helped you, consider supporting its continued development.  
 Every bit helps keep the project alive and improving. 🙏💌☕
 
-👉 [**Donate here**](https://www.paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG)
+👉 [**Donate here**](https://www.buymeacoffee.com/officialmwanzu)
